@@ -1,0 +1,179 @@
+.header7{
+    position: absolute;
+    top:2.5vh;
+    left:40vw;
+
+}
+
+button{
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    }
+.t1{
+    color: rgb(0, 0, 0);
+}
+
+table,th,td {
+	border: 1px black solid;
+}
+table{
+    width: 800px;
+    background-color: white;
+}
+
+#table3{
+    width: 800px;
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 27.5vw;
+    top:20vh;
+}
+
+.twoone
+{
+    position: relative;
+    left: 27.5vw;
+    top:20vh;
+    color: black;
+    font-weight: bold;
+}
+
+.by{
+    position: absolute;
+    top:15vh;
+    left:37.5vw;
+}
+
+.bz{
+    position: absolute;
+    top: 15vh;
+    left: 55vw;
+}
+
+@media screen and (max-width: 1080px) {
+    .header7{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top:2.5vh;
+        left:40vw;
+    
+    }
+    
+    button{
+        display: block;
+        background-color: white;
+        border-radius: 5px;
+        text-align: center;
+        }
+    .t1{
+        color: rgb(0, 0, 0);
+    }
+    
+    table,th,td {
+        border: 1px black solid;
+    }
+    table{
+        width: 600px;
+        background-color: white;
+    }
+
+
+    #table3{
+        width: 600px;
+        background-color: white;
+        color: black;
+        position: relative;
+        left: 20vw;
+        top:25vh;
+    }
+    
+    .twoone
+    {
+        position: relative;
+        left: 20vw;
+        top:25vh;
+        color: black;
+        font-weight: bold;
+    }
+    
+    .by{
+        position: fixed;
+        top:12.5vh;
+        left:40vw;
+    }
+    
+    .bz{
+        position: fixed;
+        top: 12.5vh;
+        left: 62.5vw;
+    }
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .header7{
+        font-size: 12.5px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top:2.5vh;
+        left:20vw;
+    
+    }
+    
+    button{
+        display: block;
+        background-color: white;
+        border-radius: 5px;
+        text-align: center;
+        }
+    .t1{
+        color: rgb(0, 0, 0);
+    }
+    
+    table,th,td {
+        border: 1px black solid;
+    }
+    table{
+        width: 600px;
+        background-color: white;
+    }
+
+    #table3{
+        width: 600px;
+        background-color: white;
+        color: black;
+        position: relative;
+        left: 2.5vw;
+        top:25vh;
+    }
+    
+    .twoone
+    {
+        position: relative;
+        left: 2.5vw;
+        top:25vh;
+        color: black;
+        font-weight: bold;
+    }
+    
+    .by{
+        position: absolute;
+        top:15vh;
+        left:20vw;
+    }
+    
+    .bz{
+        position: absolute;
+        top: 15vh;
+        left: 60vw;
+    }
+
+
+}
+
+
